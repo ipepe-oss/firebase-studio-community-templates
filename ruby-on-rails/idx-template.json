@@ -1,0 +1,29 @@
+{
+  "name": "Ruby on Rails",
+  "description": "A Ruby on Rails template with Ruby 3.1.4, PostgreSQL, and Redis.",
+  "preview": "rails.png",
+  "category": "Fullstack",
+  "supportedConfigurations": [
+    {
+      "name": "rails",
+      "displayName": "Rails",
+      "description": "Ruby on Rails configuration with Ruby 3.1.4, PostgreSQL, and Redis.",
+      "primary": true,
+      "cloudRun": {
+        "port": 3000,
+        "preview": true,
+        "showShellOnStartup": true
+      },
+      "ports": [
+        {
+          "port": 5432,
+          "description": "PostgreSQL port"
+        },
+        {
+          "port": 6379,
+          "description": "Redis port"
+        }
+      ]
+    }
+  ]
+}
