@@ -1,6 +1,10 @@
 # Ruby on Rails
 
-[![Open in IDX](https://cdn.dev/button)](https://github.com/ipepe-oss/firebase-studio-community-templates.git/tree/main/ruby-on-rails)
+<a href="https://idx.google.com/new?template=https://github.com/ipepe-oss/firebase-studio-community-templates/tree/main/ruby-on-rails">
+  <img height="32" alt="Try in IDX" src="https://cdn.idx.dev/btn/try_dark_32.svg">
+</a>
+
+
 
 A Ruby on Rails template with Ruby 3.1.4, PostgreSQL, and Redis.
 
