@@ -4,6 +4,7 @@ let
   rubyVersion = "3_1";
   ruby = pkgs."ruby_${rubyVersion}";
 in {
+  bootstrap = "";
   name = "rails";
   config = {
     description = "Ruby on Rails configuration with Ruby 3.1.4, PostgreSQL, and Redis.";
